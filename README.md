@@ -43,7 +43,7 @@ Sigue estas instrucciones para configurar y ejecutar el proyecto en tu entorno l
 ### Prerrequisitos
 
 -   [Node.js](https://nodejs.org/en/) (versión 18 o superior)
--   [npm](https://www.npmjs.com/) (o yarn/pnpm/bun)
+-   [pnpm](https://pnpm.io/)
 -   Una instancia de [MongoDB](https://www.mongodb.com/docs/manual/installation/) ejecutándose (localmente o en la nube).
 
 ### Instalación
@@ -56,7 +56,7 @@ Sigue estas instrucciones para configurar y ejecutar el proyecto en tu entorno l
 
 2.  Instala las dependencias del proyecto:
     ```bash
-    npm install
+    pnpm install
     ```
 
 ### Configuración de Variables de Entorno
@@ -75,19 +75,19 @@ JWT_SECRET=your_jwt_secret_key
 
 1.  **Modo Desarrollo:**
     ```bash
-    npm run dev
+    pnpm run dev
     ```
     Abre [http://localhost:3000](http://localhost:3000) en tu navegador para ver la aplicación.
 
 2.  **Construir para Producción:**
     ```bash
-    npm run build
+    pnpm run build
     ```
     Este comando también generará la documentación de Swagger/OpenAPI.
 
 3.  **Modo Producción:**
     ```bash
-    npm run start
+    pnpm run start
     ```
 
 ## Endpoints de la API
@@ -121,12 +121,12 @@ El proyecto incluye pruebas unitarias para los endpoints de la API utilizando Je
 
 -   **Ejecutar todas las pruebas:**
     ```bash
-    npm test
+    pnpm test
     ```
 
 -   **Ejecutar pruebas y generar reporte de cobertura:**
     ```bash
-    npm run test:coverage
+    pnpm run test:coverage
     ```
     El reporte de cobertura se generará en la carpeta `coverage/`.
 
@@ -136,11 +136,11 @@ La documentación interactiva de la API se genera automáticamente utilizando `n
 
 -   Para acceder a la documentación, primero construye el proyecto:
     ```bash
-    npm run build
+    pnpm run build
     ```
 -   Luego, inicia el servidor en modo producción:
     ```bash
-    npm run start
+    pnpm run start
     ```
 -   Finalmente, abre tu navegador y navega a:
     [http://localhost:3000/api/docs](http://localhost:3000/api/docs)
