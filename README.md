@@ -2,6 +2,9 @@
 
 Este proyecto es una aplicación de autenticación de usuarios construida con Next.js, que incluye funcionalidades de registro, inicio de sesión y gestión de perfiles, con integración a MongoDB y un sistema de testing robusto.
 
+<img width="1920" height="911" alt="image" src="https://github.com/user-attachments/assets/18ccf2f9-c864-4f92-8b77-976dd08d8364" />
+
+
 ## Características
 
 -   **Autenticación de Usuarios:** Registro y Login con validación de credenciales.
